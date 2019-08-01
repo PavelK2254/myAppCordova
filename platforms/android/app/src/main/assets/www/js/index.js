@@ -16,8 +16,18 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+ var success = function(result) {
+   document.getElementById('zebraFeedback').innerHTML = JSON.stringify(result, undefined, 2)
+ }
+ var failure = function(result) {
+   document.getElementById('zebraFeedback').innerHTML = JSON.stringify(result, undefined, 2)
+ }
+
 var app = {
     // Application Constructor
+
+
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     },
@@ -28,6 +38,10 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        /*window.cordova.plugins.ZebraPlugin.coolMethod({
+  _sMessage: "Hello World"
+}, success, failure);*/
+window.cordova.plugins.ZebraPlugin.sendZplOverTcp("1.1.1.1",success,failure);
     },
 
     // Update DOM on a Received Event

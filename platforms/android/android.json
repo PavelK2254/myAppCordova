@@ -15,6 +15,14 @@
             {
               "xml": "<feature name=\"ZebraPlugin\"><param name=\"android-package\" value=\"cordova-zebra-plugin.ZebraPlugin\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"MainExecutor\"><param name=\"android-package\" value=\"cordova-zebra-plugin.MainExecutor\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"TCPConnectionManager\"><param name=\"android-package\" value=\"cordova-zebra-plugin.TCPConnectionManager\" /></feature>",
+              "count": 1
             }
           ]
         }

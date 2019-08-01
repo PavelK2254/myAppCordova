@@ -26,8 +26,8 @@
       "cordova-zebra-plugin": {}
     },
     "platforms": [
-      "android",
-      "browser"
+      "browser",
+      "android"
     ]
   }
 }
