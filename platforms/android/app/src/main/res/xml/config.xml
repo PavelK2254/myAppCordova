@@ -5,13 +5,13 @@
         <param name="onload" value="true" />
     </feature>
     <feature name="ZebraPlugin">
-        <param name="android-package" value="cordova-zebra-plugin.ZebraPlugin" />
+        <param name="android-package" value="cordova.zebra.plugin.ZebraPlugin" />
     </feature>
     <feature name="MainExecutor">
-        <param name="android-package" value="cordova-zebra-plugin.MainExecutor" />
+        <param name="android-package" value="cordova.zebra.plugin.MainExecutor" />
     </feature>
     <feature name="TCPConnectionManager">
-        <param name="android-package" value="cordova-zebra-plugin.TCPConnectionManager" />
+        <param name="android-package" value="cordova.zebra.plugin.TCPConnectionManager" />
     </feature>
     <name>HelloCordova</name>
     <description>

@@ -17,9 +17,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/PavelK2254/ZebraIonicPlugin.git#9fb0063bd753d5c103ce71166deca491e41e4964",
+  "_resolved": "git+https://github.com/PavelK2254/ZebraIonicPlugin.git#5cd30ab57eeaf41576485bfdce4bb8d47bf40b5f",
   "_spec": "https://github.com/PavelK2254/ZebraIonicPlugin.git",
-  "_where": "C:\\Users\\Development\\Documents\\Web Projects\\myAppCordova",
+  "_where": "C:\\Users\\Development\\Documents\\Web Projects\\myAppCordova\\myAppCordova",
   "author": {
     "name": "pavel4567@gmail.com"
   },

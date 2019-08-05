@@ -38,9 +38,9 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-        /*window.cordova.plugins.ZebraPlugin.coolMethod({
+        window.cordova.plugins.ZebraPlugin.coolMethod({
   _sMessage: "Hello World"
-}, success, failure);*/
+}, success, failure);
 window.cordova.plugins.ZebraPlugin.sendZplOverTcp("1.1.1.1",success,failure);
     },
 

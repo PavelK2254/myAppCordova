@@ -1,0 +1,10 @@
+{
+  "cordova-zebra-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/PavelK2254/ZebraIonicPlugin.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
