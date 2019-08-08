@@ -1,42 +1,17 @@
 {
-  "_from": "git+https://github.com/PavelK2254/ZebraIonicPlugin.git",
-  "_id": "cordova-zebra-plugin@0.0.1",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/cordova-zebra-plugin",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "https://github.com/PavelK2254/ZebraIonicPlugin.git",
-    "rawSpec": "https://github.com/PavelK2254/ZebraIonicPlugin.git",
-    "saveSpec": "git+https://github.com/PavelK2254/ZebraIonicPlugin.git",
-    "fetchSpec": "https://github.com/PavelK2254/ZebraIonicPlugin.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "git+https://github.com/PavelK2254/ZebraIonicPlugin.git#9fb0063bd753d5c103ce71166deca491e41e4964",
-  "_spec": "https://github.com/PavelK2254/ZebraIonicPlugin.git",
-  "_where": "C:\\Users\\Development\\Documents\\Web Projects\\myAppCordova",
-  "author": {
-    "name": "pavel4567@gmail.com"
-  },
-  "bundleDependencies": false,
+  "name": "cordova-zebra-plugin",
+  "version": "0.0.1",
+  "description": "Zebra printer plugin",
   "cordova": {
     "id": "cordova-zebra-plugin",
     "platforms": [
       "android"
     ]
   },
-  "deprecated": false,
-  "description": "Zebra printer plugin",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "license": "MIT",
-  "name": "cordova-zebra-plugin",
-  "version": "0.0.1"
+  "author": "pavel4567@gmail.com",
+  "license": "MIT"
 }
