@@ -10,7 +10,7 @@
   "cordova-zebra-plugin": {
     "source": {
       "type": "local",
-      "path": "C:\\Users\\pavel.k\\Documents\\Projects\\myApp\\node_modules\\cordova-zebra-plugin"
+      "path": "C:\\Users\\Development\\Documents\\Web Projects\\myAppCordova\\node_modules\\cordova-zebra-plugin"
     },
     "is_top_level": true,
     "variables": {}

@@ -41,7 +41,7 @@ var app = {
 /*        window.cordova.plugins.ZebraPlugin.coolMethod({
   _sMessage: "Hello World"
 }, success, failure);*/
-window.cordova.plugins.ZebraPlugin.sendZplOverTcp("1.1.1.1",success,failure);
+window.cordova.plugins.ZebraPlugin.sendZplOverTcp("1.1.1.1","test content text",success,failure);
     },
 
     // Update DOM on a Received Event
